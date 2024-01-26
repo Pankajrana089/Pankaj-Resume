@@ -21,6 +21,10 @@
   font-family: MyFontItalic;
   src: url("./FontFamily/GlacialIndifference-Italic.otf");
 }
+.heading {
+  padding: 131px 0px 0px 400px;
+  font-size: 25px !important;
+}
 html {
   background-color: #fff;
 }
@@ -58,10 +62,7 @@ h4 {
   font-family: MyFontRegular;
   text-transform: uppercase;
 }
-.heading {
-  padding: 131px 0px 0px 400px !important;
-  font-size: 25px !important;
-}
+
 .name {
   font-family: MyFontBold;
   margin: 0px !important;
@@ -135,4 +136,106 @@ table {
   width: 100%;
   font-family: MyFontRegular;
   border-spacing: 5px;
+  overflow-x: auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    border-radius: 90%;
+    border: 10px solid #ffffff;
+    border: 5;
+    height: 300px;
+  }
+  .float-img {
+    position: unset !important;
+    float: left;
+    margin-bottom: 33px;
+  }
+  h1,
+  h2,
+  h4 {
+    color: #ffffff;
+    font-family: MyFontRegular;
+    text-transform: uppercase;
+  }
+  .heading {
+    padding: 0px !important;
+    font-size: 25px !important;
+  }
+  .name {
+    font-family: MyFontBold;
+    margin: 0px !important;
+  }
+  .designation {
+    letter-spacing: 9px;
+    font-size: 30px;
+    margin: 0px !important;
+  }
+
+  h3 {
+    color: #1d0847;
+    text-transform: uppercase;
+    font-family: MyFontBold;
+    font-style: italic;
+  }
+
+  hr {
+    border-width: 0px;
+  }
+  p,
+  ul,
+  li {
+    font-family: MyFontRegular;
+    margin: 0px;
+    text-align: justify;
+  }
+
+  section {
+    padding: 50px 30px;
+  }
+
+  .divider-left {
+    border-color: #ffffff;
+    border-style: none none none solid;
+    border-width: medium;
+  }
+  .divider {
+    border-top: 3px solid #fff;
+    width: 30%;
+    margin-top: 25px;
+  }
+
+  .grid-container {
+    display: block !important;
+    grid-template-columns: auto auto auto;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+  }
+  .contact-style {
+    padding-top: 0px;
+  }
+  .blue-color {
+    color: #1d0847;
+  }
+  .white-color {
+    color: #ffffff;
+  }
+
+  .tech-knowledge td {
+    background-color: #292f33;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  table {
+    width: 100%;
+    font-family: MyFontRegular;
+    border-spacing: 5px;
+    overflow-x: auto !important;
+    font-size: 22px;
+  }
 }
