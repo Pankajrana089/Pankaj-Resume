@@ -1,0 +1,138 @@
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    zoom: 47.3%;
+  }
+  @page {
+    size: A4;
+  }
+}
+
+@font-face {
+  font-family: MyFontBold;
+  src: url("./FontFamily/GlacialIndifference-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: MyFontRegular;
+  src: url("./FontFamily/GlacialIndifference-Regular.otf");
+}
+@font-face {
+  font-family: MyFontItalic;
+  src: url("./FontFamily/GlacialIndifference-Italic.otf");
+}
+html {
+  background-color: #fff;
+}
+body {
+  min-height: 100vh;
+  max-width: 1500px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.head-background {
+  background-color: #1d0847;
+}
+.bg1 {
+  background-color: #ccd7e1;
+}
+.bg2 {
+  background-color: #a7afb6;
+}
+
+img {
+  border-radius: 90%;
+  border: 10px solid #ffffff;
+  border: 5;
+  height: 300px;
+}
+.float-img {
+  position: absolute;
+  float: left;
+  margin-top: 51px;
+}
+h1,
+h2,
+h4 {
+  color: #ffffff;
+  font-family: MyFontRegular;
+  text-transform: uppercase;
+}
+.heading {
+  padding: 131px 0px 0px 400px !important;
+  font-size: 25px !important;
+}
+.name {
+  font-family: MyFontBold;
+  margin: 0px !important;
+}
+.designation {
+  letter-spacing: 9px;
+  font-size: 30px;
+  margin: 0px !important;
+}
+
+h3 {
+  color: #1d0847;
+  text-transform: uppercase;
+  font-family: MyFontBold;
+  font-style: italic;
+}
+
+hr {
+  border-width: 0px;
+}
+p,
+ul,
+li {
+  font-family: MyFontRegular;
+  margin: 0px;
+  text-align: justify;
+}
+
+section {
+  padding: 50px 30px;
+}
+
+.divider-left {
+  border-color: #ffffff;
+  border-style: none none none solid;
+  border-width: medium;
+}
+.divider {
+  border-top: 3px solid #fff;
+  width: 30%;
+  margin-top: 25px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+}
+.contact-style {
+  padding-top: 200px;
+}
+.blue-color {
+  color: #1d0847;
+}
+.white-color {
+  color: #ffffff;
+}
+
+.tech-knowledge td {
+  background-color: #292f33;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  font-family: MyFontRegular;
+  border-spacing: 5px;
+}
