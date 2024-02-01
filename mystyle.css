@@ -1,7 +1,6 @@
 @media print {
   body {
     -webkit-print-color-adjust: exact;
-    zoom: 47.3%;
   }
   @page {
     size: A4;
@@ -137,6 +136,10 @@ table {
   font-family: MyFontRegular;
   border-spacing: 5px;
   overflow-x: auto !important;
+}
+
+.darkred {
+  color: darkred;
 }
 
 @media only screen and (max-width: 600px) {
